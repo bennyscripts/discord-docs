@@ -26,6 +26,7 @@ When adding new endpoints to the `endpoints/` directory, ensure you follow those
 1. **Structure**:
    - Include the request method (`GET`, `POST`, etc.), endpoint URL, and an example of the request.
    - Include the response from the HTTP request, if any.
+   - Endpoints are categorized on whether or not they trigger CAPTCHA.
 
    Example:
    ```http
